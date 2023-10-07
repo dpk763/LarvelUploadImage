@@ -17,7 +17,7 @@ class UploadController extends Controller
         $data->url=$fileName;
         $data->save();
 
-        return redirect('/upload');
+        return redirect('/');
 
     }
 }
